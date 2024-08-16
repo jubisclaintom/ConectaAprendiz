@@ -16,5 +16,10 @@ namespace ConectaAprendiz
         {
             InitializeComponent();
         }
+
+        private void maskedTextBox2_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }
