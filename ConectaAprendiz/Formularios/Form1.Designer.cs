@@ -1,6 +1,6 @@
 ﻿namespace ConectaAprendiz
 {
-    partial class Form1
+    partial class frm_Login
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -19,7 +19,7 @@
             }
             base.Dispose(disposing);
         }
-
+        
         #region Código gerado pelo Windows Form Designer
 
         /// <summary>
