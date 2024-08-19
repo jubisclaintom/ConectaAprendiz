@@ -26,57 +26,22 @@ namespace ConectaAprendiz.Formularios
         {
             Task.Delay(10000);
             progressBar1.PerformStep();
-        }
-        
-
-
-        private void progressBar1_Click(object sender, EventArgs e)
-        {
-             
-            
-        }
-
-        private void frm_splash_Load(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            if(progressBar1.Value >= 45 && progressBar1.Value < 90)
+            if (progressBar1.Value >= 45 && progressBar1.Value < 90)
             {
                 label69.Text = "Conecta";
             }
             else if (progressBar1.Value >= 90)
             {
+                label70.ForeColor = Color.Red;
                 label70.Text = "Aprendiz";
             }
-
-            
-            //if (progressBar1.Value == 45)
-            //{
-            //    label69.Text = "Conecta ";
-            //}
-            //if (progressBar1.Value == 90)
-            //{
-            //    label70.Text = "Aprendiz";
-            //}
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
+            if(progressBar1.Value == progressBar1.Maximum)
+            {
+                frm_Login login = new frm_Login();
+                login.Show();
+                timer1.Enabled = false;
+                this.Hide();
+            }
         }
 
         private void progressBar1_Click_1(object sender, EventArgs e)
@@ -84,21 +49,10 @@ namespace ConectaAprendiz.Formularios
 
         }
 
-        private void label56_Click(object sender, EventArgs e)
+        private void frm_splash_Load(object sender, EventArgs e)
         {
 
         }
-
-        private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void label69_Click(object sender, EventArgs e)
-        {
-            
-        }
-        
     }
 }
  

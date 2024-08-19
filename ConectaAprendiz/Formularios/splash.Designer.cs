@@ -34,9 +34,9 @@ namespace ConectaAprendiz.Formularios
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_splash));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label56 = new System.Windows.Forms.Label();
-            this.progressBar1 = new ConectaAprendiz.Classes.Customprogressbar();
             this.label69 = new System.Windows.Forms.Label();
             this.label70 = new System.Windows.Forms.Label();
+            this.progressBar1 = new ConectaAprendiz.Classes.Customprogressbar();
             this.SuspendLayout();
             // 
             // timer1
@@ -51,53 +51,50 @@ namespace ConectaAprendiz.Formularios
             this.label56.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label56.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label56.ForeColor = System.Drawing.Color.Black;
-            this.label56.Location = new System.Drawing.Point(246, 457);
-            this.label56.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label56.Location = new System.Drawing.Point(184, 371);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(307, 26);
+            this.label56.Size = new System.Drawing.Size(252, 21);
             this.label56.TabIndex = 1;
             this.label56.Text = " Aprenda, Cresça, Conquiste";
-            this.label56.Click += new System.EventHandler(this.label56_Click);
-            // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(-4, 487);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(4);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(788, 37);
-            this.progressBar1.TabIndex = 0;
-            this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click_1);
             // 
             // label69
             // 
             this.label69.AutoSize = true;
             this.label69.BackColor = System.Drawing.Color.Transparent;
             this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label69.Location = new System.Drawing.Point(235, 403);
+            this.label69.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label69.Location = new System.Drawing.Point(176, 327);
+            this.label69.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(158, 42);
+            this.label69.Size = new System.Drawing.Size(0, 36);
             this.label69.TabIndex = 2;
-            this.label69.Text = "Conecta";
-            this.label69.Click += new System.EventHandler(this.label69_Click);
             // 
             // label70
             // 
-            this.label70.AutoSize = true;
             this.label70.BackColor = System.Drawing.Color.Transparent;
-            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label70.Location = new System.Drawing.Point(399, 403);
+            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 23.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label70.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label70.Location = new System.Drawing.Point(296, 318);
+            this.label70.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(166, 42);
+            this.label70.Size = new System.Drawing.Size(132, 36);
             this.label70.TabIndex = 3;
-            this.label70.Text = "Aprendiz";
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(-3, 396);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(591, 30);
+            this.progressBar1.TabIndex = 0;
+            this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click_1);
             // 
             // frm_splash
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(787, 521);
+            this.ClientSize = new System.Drawing.Size(590, 423);
             this.Controls.Add(this.label70);
             this.Controls.Add(this.label69);
             this.Controls.Add(this.label56);
@@ -105,7 +102,6 @@ namespace ConectaAprendiz.Formularios
             this.Enabled = false;
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frm_splash";
             this.Text = "splash";
             this.Load += new System.EventHandler(this.frm_splash_Load);
