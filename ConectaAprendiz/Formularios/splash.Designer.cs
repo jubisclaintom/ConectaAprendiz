@@ -59,26 +59,27 @@ namespace ConectaAprendiz.Formularios
             // 
             // label69
             // 
-            this.label69.AutoSize = true;
             this.label69.BackColor = System.Drawing.Color.Transparent;
-            this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label69.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label69.Location = new System.Drawing.Point(176, 327);
+            this.label69.Location = new System.Drawing.Point(173, 321);
             this.label69.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(0, 36);
+            this.label69.Size = new System.Drawing.Size(106, 36);
             this.label69.TabIndex = 2;
+            this.label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label70
             // 
             this.label70.BackColor = System.Drawing.Color.Transparent;
-            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 23.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label70.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label70.Location = new System.Drawing.Point(296, 318);
+            this.label70.Location = new System.Drawing.Point(304, 321);
             this.label70.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label70.Name = "label70";
             this.label70.Size = new System.Drawing.Size(132, 36);
             this.label70.TabIndex = 3;
+            this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // progressBar1
             // 

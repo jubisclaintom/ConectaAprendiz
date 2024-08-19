@@ -46,7 +46,7 @@
             this.pictureBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.Location = new System.Drawing.Point(530, 67);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(102, 102);
             this.pictureBox1.TabIndex = 0;
@@ -57,7 +57,7 @@
             this.pictureBox2.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.Location = new System.Drawing.Point(530, 188);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(102, 119);
             this.pictureBox2.TabIndex = 1;
@@ -66,7 +66,7 @@
             // btnentrar
             // 
             this.btnentrar.Location = new System.Drawing.Point(640, 380);
-            this.btnentrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnentrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnentrar.Name = "btnentrar";
             this.btnentrar.Size = new System.Drawing.Size(64, 27);
             this.btnentrar.TabIndex = 2;
@@ -77,7 +77,7 @@
             // btncancelar
             // 
             this.btncancelar.Location = new System.Drawing.Point(732, 380);
-            this.btncancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btncancelar.Margin = new System.Windows.Forms.Padding(2);
             this.btncancelar.Name = "btncancelar";
             this.btncancelar.Size = new System.Drawing.Size(63, 27);
             this.btncancelar.TabIndex = 3;
@@ -88,7 +88,7 @@
             // logintext
             // 
             this.logintext.Location = new System.Drawing.Point(649, 106);
-            this.logintext.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.logintext.Margin = new System.Windows.Forms.Padding(2);
             this.logintext.Name = "logintext";
             this.logintext.Size = new System.Drawing.Size(174, 20);
             this.logintext.TabIndex = 4;
@@ -96,7 +96,7 @@
             // pswdtext
             // 
             this.pswdtext.Location = new System.Drawing.Point(649, 258);
-            this.pswdtext.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pswdtext.Margin = new System.Windows.Forms.Padding(2);
             this.pswdtext.Name = "pswdtext";
             this.pswdtext.PasswordChar = '•';
             this.pswdtext.Size = new System.Drawing.Size(174, 20);
@@ -144,7 +144,7 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frm_Login";
-            this.Text = "ConectaAprendiz";
+            this.Text = "Login";
             this.Load += new System.EventHandler(this.frm_Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
