@@ -19,7 +19,7 @@ namespace ConectaAprendiz.Formularios
 
         private void Principal_Load(object sender, EventArgs e)
         {
-
+            Tslabel.Text = frm_Login.nome;                                                                                                                                      
         }
 
         private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)

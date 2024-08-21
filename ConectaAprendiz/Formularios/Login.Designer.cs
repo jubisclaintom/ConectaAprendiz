@@ -35,7 +35,6 @@
             this.btncancelar = new System.Windows.Forms.Button();
             this.logintext = new System.Windows.Forms.TextBox();
             this.pswdtext = new System.Windows.Forms.TextBox();
-            this.hyperlink1 = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -102,18 +101,6 @@
             this.pswdtext.Size = new System.Drawing.Size(174, 20);
             this.pswdtext.TabIndex = 5;
             // 
-            // hyperlink1
-            // 
-            this.hyperlink1.AutoSize = true;
-            this.hyperlink1.LinkColor = System.Drawing.Color.DarkOrange;
-            this.hyperlink1.Location = new System.Drawing.Point(686, 430);
-            this.hyperlink1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.hyperlink1.Name = "hyperlink1";
-            this.hyperlink1.Size = new System.Drawing.Size(66, 13);
-            this.hyperlink1.TabIndex = 6;
-            this.hyperlink1.TabStop = true;
-            this.hyperlink1.Text = "Cadastrar-se";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -134,7 +121,6 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(895, 450);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.hyperlink1);
             this.Controls.Add(this.pswdtext);
             this.Controls.Add(this.logintext);
             this.Controls.Add(this.btncancelar);
@@ -161,7 +147,6 @@
         private System.Windows.Forms.Button btncancelar;
         private System.Windows.Forms.TextBox logintext;
         private System.Windows.Forms.TextBox pswdtext;
-        private System.Windows.Forms.LinkLabel hyperlink1;
         private System.Windows.Forms.Label label1;
     }
 }

@@ -31,19 +31,20 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dadosPessoaisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.curriculoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.empresasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vagasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastrarNovaEmpresaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dadosPessoaisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.curriculoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pesquisaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatorioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contratosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contratosDeEmpresasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajudToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contratosDeEmpresasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pesquisaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.Tslabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -77,8 +78,20 @@
             this.dadosPessoaisToolStripMenuItem,
             this.curriculoToolStripMenuItem});
             this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.usuariosToolStripMenuItem.Text = "Usuarios ";
+            // 
+            // dadosPessoaisToolStripMenuItem
+            // 
+            this.dadosPessoaisToolStripMenuItem.Name = "dadosPessoaisToolStripMenuItem";
+            this.dadosPessoaisToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.dadosPessoaisToolStripMenuItem.Text = "Dados pessoais";
+            // 
+            // curriculoToolStripMenuItem
+            // 
+            this.curriculoToolStripMenuItem.Name = "curriculoToolStripMenuItem";
+            this.curriculoToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.curriculoToolStripMenuItem.Text = "Curriculo";
             // 
             // empresasToolStripMenuItem
             // 
@@ -86,7 +99,7 @@
             this.vagasToolStripMenuItem,
             this.cadastrarNovaEmpresaToolStripMenuItem});
             this.empresasToolStripMenuItem.Name = "empresasToolStripMenuItem";
-            this.empresasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.empresasToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.empresasToolStripMenuItem.Text = "Empresas";
             // 
             // vagasToolStripMenuItem
@@ -101,17 +114,11 @@
             this.cadastrarNovaEmpresaToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
             this.cadastrarNovaEmpresaToolStripMenuItem.Text = "Cadastrar nova empresa";
             // 
-            // dadosPessoaisToolStripMenuItem
+            // pesquisaToolStripMenuItem
             // 
-            this.dadosPessoaisToolStripMenuItem.Name = "dadosPessoaisToolStripMenuItem";
-            this.dadosPessoaisToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.dadosPessoaisToolStripMenuItem.Text = "Dados pessoais";
-            // 
-            // curriculoToolStripMenuItem
-            // 
-            this.curriculoToolStripMenuItem.Name = "curriculoToolStripMenuItem";
-            this.curriculoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.curriculoToolStripMenuItem.Text = "Curriculo";
+            this.pesquisaToolStripMenuItem.Name = "pesquisaToolStripMenuItem";
+            this.pesquisaToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
+            this.pesquisaToolStripMenuItem.Text = "Pesquisa ";
             // 
             // relatorioToolStripMenuItem
             // 
@@ -125,8 +132,14 @@
             // contratosToolStripMenuItem
             // 
             this.contratosToolStripMenuItem.Name = "contratosToolStripMenuItem";
-            this.contratosToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.contratosToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
             this.contratosToolStripMenuItem.Text = "Hitórico de contratos ";
+            // 
+            // contratosDeEmpresasToolStripMenuItem
+            // 
+            this.contratosDeEmpresasToolStripMenuItem.Name = "contratosDeEmpresasToolStripMenuItem";
+            this.contratosDeEmpresasToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
+            this.contratosDeEmpresasToolStripMenuItem.Text = "Contratos de empresas ";
             // 
             // ajudToolStripMenuItem
             // 
@@ -140,22 +153,11 @@
             this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ajudaToolStripMenuItem.Text = "Ajuda ";
             // 
-            // contratosDeEmpresasToolStripMenuItem
-            // 
-            this.contratosDeEmpresasToolStripMenuItem.Name = "contratosDeEmpresasToolStripMenuItem";
-            this.contratosDeEmpresasToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
-            this.contratosDeEmpresasToolStripMenuItem.Text = "Contratos de empresas ";
-            // 
-            // pesquisaToolStripMenuItem
-            // 
-            this.pesquisaToolStripMenuItem.Name = "pesquisaToolStripMenuItem";
-            this.pesquisaToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
-            this.pesquisaToolStripMenuItem.Text = "Pesquisa ";
-            // 
             // statusStrip1
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1});
+            this.toolStripStatusLabel1,
+            this.Tslabel});
             this.statusStrip1.Location = new System.Drawing.Point(0, 416);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(832, 22);
@@ -166,9 +168,14 @@
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(111, 17);
-            this.toolStripStatusLabel1.Text = "Logado com Usurio";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(120, 17);
+            this.toolStripStatusLabel1.Text = "Logado com Usuario:";
             this.toolStripStatusLabel1.Click += new System.EventHandler(this.toolStripStatusLabel1_Click);
+            // 
+            // Tslabel
+            // 
+            this.Tslabel.Name = "Tslabel";
+            this.Tslabel.Size = new System.Drawing.Size(0, 17);
             // 
             // Principal
             // 
@@ -208,5 +215,6 @@
         private System.Windows.Forms.ToolStripMenuItem pesquisaToolStripMenuItem;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripStatusLabel Tslabel;
     }
 }
